@@ -1,0 +1,56 @@
+.scroll-btn {
+    padding: 0.5rem 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ced4da;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 0.375rem;
+}
+
+.scroll-btn:hover {
+    background-color: #f1f1f1;
+}
+
+.category-scroll-wrapper {
+    display: flex;
+    justify-content: center;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    width: 100%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    scroll-behavior: smooth;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* IE and Edge */
+}
+
+.category-scroll-wrapper::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera */
+}
+
+.category-item {
+    width: 100px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.category-icon-wrapper {
+    width: 90px;
+    height: 90px;
+    border: 2px solid #eee;
+    overflow: hidden;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.category-icon {
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+}

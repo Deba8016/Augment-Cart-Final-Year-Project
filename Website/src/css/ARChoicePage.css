@@ -1,0 +1,83 @@
+.ar-choice-container {
+    height: 100vh;
+    background-image: url("/images/ARView.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .ar-choice-card {
+    border-radius: 20px;
+    max-width: 500px;
+    width: 90%;
+    background: linear-gradient(to bottom right, #ffffffee, #f9f9f9dd);
+    border: 3px solid transparent;
+    background-clip: padding-box;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(8px);
+    padding: 2rem;
+    animation: pop 0.5s ease;
+    margin-left: 600px;
+  }
+  
+  @keyframes pop {
+    0% {
+      transform: scale(0.95);
+      opacity: 0;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  
+  .ar-choice-card h2 {
+    color: #4b49ac;
+    font-weight: bold;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+  
+  .ar-choice-card p {
+    font-size: 1.1rem;
+    color: #444;
+  }
+  
+  .web, .ar {
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 0.75rem 1rem;
+    border-radius: 8px;
+  }
+  
+  .web {
+    background-color: #ffe9cc;
+    color: #000;
+    border: none;
+    box-shadow: 0 4px 10px rgba(255, 165, 0, 0.3);
+    transition: all 0.3s ease;
+  }
+  
+  .web:hover {
+    background-color: #ff9f43;
+    color: white;
+    box-shadow: 0 6px 16px rgba(255, 165, 0, 0.4);
+  }
+  
+  .ar {
+    background-color: #d6f5d6;
+    color: #000;
+    border: none;
+    box-shadow: 0 4px 10px rgba(0, 128, 0, 0.3);
+    transition: all 0.3s ease;
+  }
+  
+  .ar:hover {
+    background-color: #28a745;
+    color: white;
+    box-shadow: 0 6px 16px rgba(0, 128, 0, 0.4);
+  }
+  

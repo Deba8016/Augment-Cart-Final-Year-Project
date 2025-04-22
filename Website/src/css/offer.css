@@ -1,0 +1,29 @@
+.offer .col-md-8{
+    background-color: #e9f6ff;
+    min-height: 60vh;
+    border-radius: 15px;
+    
+}
+
+  .offer .top-left-img {
+    max-height: 250px;
+    object-fit: contain;
+  }
+  
+  .offer .top-right,
+  .offer .bottom-right {
+    min-height: 29vh;
+    border-radius: 15px;
+    background-color: #f0faeb; 
+  }
+  
+  .offer .bottom-right {
+    background-color: #fdf4e7;
+  }
+  .offer .scale-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  

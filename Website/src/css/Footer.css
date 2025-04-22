@@ -1,0 +1,38 @@
+.footer-section {
+    background-color: #212529; /* Bootstrap dark */
+    color: white;
+    padding-top: 3rem;
+    padding-bottom: 2.5rem;
+}
+
+.footer-logo {
+    height: 80px;
+    width: auto;
+}
+
+.footer-heading {
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.footer-link {
+    color: white;
+    text-decoration: none;
+}
+
+
+.footer-icon {
+    color: white;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+}
+
+.footer-icon:hover {
+    opacity: 0.75;
+}
+.contact-links{
+    color:white;
+    text-decoration: none;
+    cursor: pointer;
+}

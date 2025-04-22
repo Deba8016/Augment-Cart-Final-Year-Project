@@ -1,0 +1,17 @@
+{
+  "expo": {
+    "name": "AugmentCart",
+    "slug": "augment-cart",
+    "scheme": "augmentcart",
+    "version": "1.0.0",
+    "userInterfaceStyle": "light",
+    "android": {
+      "package": "com.bristidev.burman2004.augmentcart"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "0c616215-23ed-44f9-9f8c-0c44fb81db92"
+      }
+    }
+  }
+}
